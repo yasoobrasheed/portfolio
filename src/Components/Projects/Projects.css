@@ -1,0 +1,39 @@
+h3 {
+  padding-top: 75px;
+  padding-bottom: 40px;
+  font-family: 'Lato', sans-serif;
+}
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+#covertext {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#imgbanner {
+  width: auto;
+  height: 175px;
+}
+
+#projectbutton {
+  background-color: white;
+  outline: none !important;
+  border: none;
+}
+
+#projectbutton:hover{
+    opacity: 0.75;
+}
+
+/*
+    background: #f4f5ed;
+    */
