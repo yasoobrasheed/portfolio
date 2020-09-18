@@ -1,8 +1,24 @@
-.navbar-brand
-{
+.navbar-brand {
   padding-left: 10px;
   font-family: 'Lato', sans-serif;
 }
 
-#facelogo {
+#navitem {
+
+  color: white;
+}
+
+#navitem:hover {
+/*color: #ffe100; */
+  color: #d93734;
+}
+
+#navitem2 {
+
+}
+
+#media-links {
+  filter: brightness(0) invert(1);
+  padding: 10px;
+  padding-top: 15px;
 }
