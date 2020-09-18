@@ -1,8 +1,5 @@
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Button from 'react-bootstrap/Button'
 import './Home.css'
 import instagram from '../../assets/instagram.png'
 import facebook from '../../assets/facebook.png'
@@ -18,33 +15,33 @@ export const Home = () => {
       </Jumbotron>
 
       <div className="media-links">
-        <a href="https://github.com/yasoobrasheed" target="_blank">
+        <a href="https://github.com/yasoobrasheed" target="_blank" rel="noopener noreferrer">
         <button id="socialbutton">
-          <img className="logo" src={github}/>
+          <img className="logo" alt="gh" src={github}/>
         </button>
         </a>
 
-        <a href="https://www.linkedin.com/in/yasoobrasheed/" target="_blank">
+        <a href="https://www.linkedin.com/in/yasoobrasheed/" target="_blank" rel="noopener noreferrer">
         <button id="socialbutton">
-          <img className="logo" src={linkedin}/>
+          <img className="logo" alt="li" src={linkedin}/>
         </button>
         </a>
 
-        <a href="https://www.instagram.com/yasoobr/" target="_blank">
+        <a href="https://www.instagram.com/yasoobr/" target="_blank" rel="noopener noreferrer">
         <button id="socialbutton">
-          <img className="logo" src={instagram}/>
+          <img className="logo" alt="insta" src={instagram}/>
         </button>
         </a>
 
-        <a href="https://www.facebook.com/yasoob.rasheed" target="_blank">
+        <a href="https://www.facebook.com/yasoob.rasheed" target="_blank" rel="noopener noreferrer">
         <button id="socialbutton">
-          <img className="logo" src={facebook}/>
+          <img className="logo" alt ="fb" src={facebook}/>
         </button>
         </a>
 
-        <a href="https://soundcloud.com/yasooob" target="_blank">
+        <a href="https://soundcloud.com/yasooob" target="_blank" rel="noopener noreferrer">
         <button id="socialbutton">
-          <img className="logo" src={soundcloud}/>
+          <img className="logo" alt="dc" src={soundcloud}/>
         </button>
         </a>
       </div>

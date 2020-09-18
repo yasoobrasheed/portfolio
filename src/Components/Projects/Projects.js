@@ -26,8 +26,6 @@ export const Projects = () => {
 
   const text7 = "A voice recognition system built with Google Voice and Node.js, for ordering flowers."
 
-  const text8 = "An automatic plant watering system."
-
   return (
     <div>
       <Container>

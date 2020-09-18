@@ -5,7 +5,7 @@ export const ProjectCover = (props) => {
     <div>
       <button id="projectbutton">
       <h3>{props.projtitle}</h3>
-      <img id="imgbanner" src={props.imgsrc} />
+      <img id="imgbanner" alt="projimage" src={props.imgsrc} />
       <p id="covertext">{props.projtext}</p>
       </button>
     </div>

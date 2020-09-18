@@ -9,7 +9,7 @@ export const NavBar = () => (
 
       <Navbar.Brand href="/">
         <a>
-          <img href="/" id="facelogo" src={logo} width="40" height="40"/>
+          <img href="/" id="facelogo" alt="face" src={logo} width="40" height="40"/>
           Yasoob Rasheed
         </a>
       </Navbar.Brand>
