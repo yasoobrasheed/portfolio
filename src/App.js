@@ -5,12 +5,10 @@ import { Projects } from './Components/Projects/Projects'
 import { Tutoring } from './Components/Tutoring/Tutoring'
 import { RealEstate } from './Components/RealEstate/RealEstate'
 import { NoMatch } from './Components/NoMatch'
-import { NavBar } from './Components/NavBar'
 
 function App() {
   return (
     <React.Fragment>
-      <NavBar />
         <Router>
           <Switch>
               <Route exact path="/" component={Home}></Route>

@@ -1,11 +1,12 @@
 import React from 'react'
 import { ProjectCover } from './ProjectCover.js'
 import { Container, Row, Col } from 'react-bootstrap'
+import { NavBar } from '../NavBar'
 import './Projects.css'
 
 import talkietalkie from './assets/talkietalkie.png'
 import blazevr from './assets/blazevr.png'
-import flowerbot from './assets/flowerbot.png'
+//import flowerbot from './assets/flowerbot.png'
 import dripdrop from './assets/dripdrop.png'
 import insite from './assets/insite.png'
 import peerboost from './assets/peerboost.png'
@@ -18,10 +19,11 @@ export const Projects = () => {
   const text4 = "A method for generating energy using a piezoelectric sensor embedded in shoes."
   const text5 = "A University of Chicago startup that connects large companies with micro-influencers."
   const text6 = "A multiplayer VR game that uses an ultrasound sensor to extinguish virtual fires."
-  const text7 = "A voice recognition system built with Google Voice and Node.js, for ordering flowers."
+  //const text7 = "A voice recognition system built with Google Voice and Node.js, for ordering flowers."
 
   return (
     <div>
+      <NavBar navType="project" variant="light"/>
       <Container id="padded">
         <Row>
           <Col>
@@ -48,14 +50,17 @@ export const Projects = () => {
             <ProjectCover projtitle={"PEERBOOST"} imgsrc={peerboost} projtext={text5} />
           </Col>
         </Row>
-        <Row>
-          <Col>
-            <ProjectCover projtitle={"FLOWERBOT"} imgsrc={flowerbot} projtext={text7} />
-          </Col>
-          <Col>
-          </Col>
-        </Row>
       </Container>
     </div>
   )
 }
+
+/*
+<Row>
+  <Col>
+    <ProjectCover projtitle={"FLOWERBOT"} imgsrc={flowerbot} projtext={text7} />
+  </Col>
+  <Col>
+  </Col>
+</Row>
+*/
