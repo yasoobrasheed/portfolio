@@ -1,8 +1,9 @@
-.jumbotron {
+#homejumbo {
     background: url("../../assets/hero10.JPG") no-repeat center center;
     background-size: cover;
     height: 100vh;
-  }
+}
+
 /*
 
    background-size: cover;
@@ -32,14 +33,3 @@
     }
 }
    */
-
-#cheekytext {
-  text-align: center;
-  color: #7F7F7F;
-  border-width: medium;
-}
-
-.logo {
-  width: 20px;
-  height: 20px;
-}

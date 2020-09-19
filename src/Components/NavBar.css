@@ -1,24 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
 .navbar-brand {
   padding-left: 10px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'EB Garamond', serif;
 }
 
 #navitem {
-
   color: white;
+  font-family: 'EB Garamond', serif;
 }
 
 #navitem:hover {
-/*color: #ffe100; */
+  font-size: 2em;
   color: #d93734;
 }
 
-#navitem2 {
-
-}
-
 #media-links {
-  filter: brightness(0) invert(1);
   padding: 10px;
   padding-top: 15px;
+}
+
+.logo {
+  filter: brightness(0) invert(1);
+  width: 20px;
+  height: 20px;
+}
+
+.logo:hover {
+  width: 2em;
+  height: 2em;
+  filter: invert(31%) sepia(39%) saturate(6000%) hue-rotate(343deg) brightness(97%) contrast(90%);
 }

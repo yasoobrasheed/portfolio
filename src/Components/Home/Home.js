@@ -6,9 +6,8 @@ import './Home.css'
 export const Home = () => {
   return (
     <div>
-      <Jumbotron fluid id="jumbo">
+      <Jumbotron fluid id="homejumbo">
       </Jumbotron>
-      <p id="cheekytext">What are you doing down here?!</p>
     </div>
   )
 }
