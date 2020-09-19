@@ -26,6 +26,7 @@ h3 {
 }
 
 #projectbutton:hover{
+    z-index:-1;
     color: #d93734;
     opacity: 80%;
 }

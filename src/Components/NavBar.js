@@ -32,6 +32,11 @@ export const NavBar = () => (
             <Nav.Link id="navitem" href="/tutoring"> Tutoring </Nav.Link>
           </Nav.Item>
         </Nav>
+        <Nav className="m-auto">
+          <Nav.Item>
+            <Nav.Link id="navitem"> SITE STILL IN PROGRESS </Nav.Link>
+          </Nav.Item>
+        </Nav>
         <Nav className="ml-auto">
           <div id="media-links">
             <a href="https://github.com/yasoobrasheed" target="_blank" rel="noopener noreferrer">
