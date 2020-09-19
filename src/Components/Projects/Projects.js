@@ -13,7 +13,7 @@ import peerboost from './assets/peerboost.png'
 import stepstore from './assets/stepstore.png'
 
 export const Projects = () => {
-  const text1 = "A hands-free mouse built with AppleScript & PureData, that moves with the sound of your voice."
+  const text1 = "A hands-free mouse built with AppleScript & PureData, moving with the sound of your voice."
   const text2 = "An iOS App for real-time, location-targeted advertisements, built with Swift & Python."
   const text3 = "A hackathon-winnning IoT application utilizing Machine Learning to track water-usage."
   const text4 = "A method for generating energy using a piezoelectric sensor embedded in shoes."

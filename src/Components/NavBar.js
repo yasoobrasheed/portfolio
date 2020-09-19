@@ -37,15 +37,15 @@ export class NavBar extends Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Item>
-                <Nav.Link id="navitem" href="/projects"> Projects </Nav.Link>
+                <Nav.Link className="hvr-grow" id="navitem" href="/projects"> Projects </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link id="navitem" href="/tutoring"> Tutoring </Nav.Link>
+                <Nav.Link className="hvr-grow" id="navitem" href="/tutoring"> Tutoring </Nav.Link>
               </Nav.Item>
             </Nav>
             <Nav className="m-auto">
               <Nav.Item>
-                <Nav.Link id="navitem"> SITE STILL IN PROGRESS </Nav.Link>
+                <Nav.Link className="hvr-grow" id="navitem"> SITE STILL IN PROGRESS </Nav.Link>
               </Nav.Item>
             </Nav>
             <Nav className="ml-auto">
