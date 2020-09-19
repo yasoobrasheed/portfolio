@@ -11,6 +11,12 @@
 # production
 /build
 
+# development
+/css
+
+# secret
+/ssl
+
 # misc
 .DS_Store
 .env.local
