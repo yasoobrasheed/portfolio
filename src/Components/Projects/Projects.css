@@ -25,3 +25,8 @@
   outline: none !important;
   border: none;
 }
+
+#coverdiv:hover > #projectbutton {
+  color: #d93734;
+  opacity: 95%;
+}
