@@ -1,0 +1,17 @@
+#imageback {
+  padding-top: 10vh;
+  width: 140vh;
+  height: auto;
+  margin-left: auto;
+}
+
+#imagecontainer {
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  width: 110vh;
+  height: auto;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
