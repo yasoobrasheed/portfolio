@@ -1,5 +1,6 @@
 
 #header {
+  text-align: center;
   font-family: 'EB Garamond', serif;
   padding-top: 50px;
   padding-bottom: 40px;
@@ -7,6 +8,7 @@
 }
 
 #covertext {
+  text-align: center;
   font-family: 'EB Garamond', serif;
   font-size: 20px;
   padding-top: 30px;
@@ -16,12 +18,15 @@
 }
 
 #imgbanner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: auto;
   height: 275px;
 }
 
 #projectbutton {
   background-color: white;
-  outline: none !important;
-  border: none;
+  color: black;
+  text-decoration: none;
 }

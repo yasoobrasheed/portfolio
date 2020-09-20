@@ -6,6 +6,13 @@ import { Tutoring } from './Components/Tutoring/Tutoring'
 import { RealEstate } from './Components/RealEstate/RealEstate'
 import { NoMatch } from './Components/NoMatch'
 
+import { Insite } from './Components/ProjectPages/Insite'
+import { TalkieTalkie } from './Components/ProjectPages/TalkieTalkie'
+import { BlazeVR } from './Components/ProjectPages/BlazeVR'
+import { DripDrop } from './Components/ProjectPages/DripDrop'
+import { StepStore } from './Components/ProjectPages/StepStore'
+import { PeerBoost } from './Components/ProjectPages/PeerBoost'
+
 function App() {
   return (
     <>
@@ -13,6 +20,14 @@ function App() {
           <Switch>
               <Route exact path="/" component={Home}></Route>
               <Route exact path="/projects" component={Projects}></Route>
+
+              <Route exact path="/insite" component={Insite}></Route>
+              <Route exact path="/talkietalkie" component={TalkieTalkie}></Route>
+              <Route exact path="/blazevr" component={BlazeVR}></Route>
+              <Route exact path="/dripdrop" component={DripDrop}></Route>
+              <Route exact path="/stepstore" component={StepStore}></Route>
+              <Route exact path="/peerboost" component={PeerBoost}></Route>
+
               <Route exact path="/tutoring" component={Tutoring}></Route>
               <Route exact path="/realestate" component={RealEstate}></Route>
             <Route component={NoMatch}></Route>

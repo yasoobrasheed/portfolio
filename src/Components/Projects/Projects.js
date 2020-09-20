@@ -27,27 +27,27 @@ export const Projects = () => {
       <Container id="padded">
         <Row>
           <Col>
-            <ProjectCover projtitle={"INSITE"} imgsrc={insite} projtext={text2} />
+            <ProjectCover link={"/insite"} projtitle={"INSITE"} imgsrc={insite} projtext={text2} />
           </Col>
           <Col>
-            <ProjectCover projtitle={"TALKIETALKIE"} imgsrc={talkietalkie}
+            <ProjectCover link={"/talkietalkie"} projtitle={"TALKIETALKIE"} imgsrc={talkietalkie}
               projtext={text1}/>
           </Col>
         </Row>
         <Row>
           <Col>
-            <ProjectCover projtitle={"BLAZEVR"} imgsrc={blazevr} projtext={text6} />
+            <ProjectCover link={"/blazevr"} projtitle={"BLAZEVR"} imgsrc={blazevr} projtext={text6} />
           </Col>
           <Col>
-            <ProjectCover projtitle={"DRIPDROP"} imgsrc={dripdrop} projtext={text3} />
+            <ProjectCover link={"/dripdrop"} projtitle={"DRIPDROP"} imgsrc={dripdrop} projtext={text3} />
           </Col>
         </Row>
         <Row>
           <Col>
-            <ProjectCover projtitle={"STEPSTORE"} imgsrc={stepstore} projtext={text4} />
+            <ProjectCover link={"/stepstore"} projtitle={"STEPSTORE"} imgsrc={stepstore} projtext={text4} />
           </Col>
           <Col>
-            <ProjectCover projtitle={"PEERBOOST"} imgsrc={peerboost} projtext={text5} />
+            <ProjectCover link={"/peerboost"} projtitle={"PEERBOOST"} imgsrc={peerboost} projtext={text5} />
           </Col>
         </Row>
       </Container>
