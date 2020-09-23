@@ -2,7 +2,7 @@ import React from 'react'
 import { NavBar } from '../NavBar'
 import { SideBar } from '../SideBar'
 //import { VideoView } from './Views/VideoView';
-//import { TextView } from './Views/TextView';
+import { TextView } from './Views/TextView';
 import { HeaderView } from './Views/HeaderView';
 
 export const DripDrop = () => {
@@ -12,6 +12,7 @@ export const DripDrop = () => {
       <NavBar navType="project" variant="light"/>
       <SideBar />
       <HeaderView text={text} />
+      <TextView text={"Coming Soon! Check out some of my other projects in the meantime."} />
     </div>
   )
 }
