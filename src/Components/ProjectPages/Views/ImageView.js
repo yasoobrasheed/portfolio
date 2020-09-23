@@ -1,5 +1,5 @@
 import React from 'react'
-import "./ImageView.js"
+import "./ImageView.css"
 
 export class ImageView extends React.Component {
   constructor(props) {
@@ -8,9 +8,9 @@ export class ImageView extends React.Component {
   }
   render() {
     return (
-      <div id="headerback">
+      <div id="imageback">
         <div id="imagecontainer">
-          <img src={this.imgsrc} />
+          <img id="someimg" src={this.imgsrc} alt="pic"/>
         </div>
       </div>
     )

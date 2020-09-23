@@ -6,7 +6,7 @@ import { VideoView } from './Views/VideoView';
 import { HeaderView } from './Views/HeaderView';
 
 export const StepStore = () => {
-  const text = "What if you could fully charge your Apple Watch just by walking around? A scientific paper, exploring sustainable energy."
+  const text = "What if you never needed to remove your apple watch? This here is a scientific paper exploring just how much energy your footsteps can generate."
   return (
     <div>
       <NavBar navType="project" variant="light"/>
