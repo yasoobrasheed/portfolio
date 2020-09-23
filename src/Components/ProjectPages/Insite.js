@@ -37,12 +37,13 @@ export const Insite = () => {
       <HeaderView text={htext3}/>
       <TextView text={text3} />
       <ImageView imgsrc={testflight} />
-      
+
       <HeaderView text={htext4}/>
       <TextView text={text4} />
       <ImageView imgsrc={insite} />
       <TextView text={text5} />
 
+      <TextView text={""} />
     </div>
   )
 }
