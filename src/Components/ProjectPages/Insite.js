@@ -17,7 +17,8 @@ export const Insite = () => {
   const text2 = "The geofences above are drawn using a point (consisting of a latitude and logitude coordinate) and a radius. These points are filtered through Python's GeoJSON and Shapely packages. Please note that although the geofence looks like a cirlce, it is actually a 100-sided shape (a hectagon or 100-gon). The images you see below are the real locations on UChicago's campus: Campus North Residential Commons, Harper Memorial Library, and Ryerson Laboratory."
   const htext2 = "Using TestFlight, we soft launch Insite on our friends' phones to test our geofences"
   const text3 = "Our iOS application is just a simple usage of Apple's Map API and Core Location API. Core Location has a geofence feature, so we feed the geofences we generated using Python into the iOS app. On the bottom right, you can see some of the sample push notifications we sent to our test users when they walked in and out of geofences on campus. The extra detailed number in the text field is the accuracy of a person's location. GPS is only accurate within a 5-10m margin. So this is evident in most of these fields."
-  const text4 = "Finally, we initiate sample push notifications with the number of Insite users in the area as an example. All of our location data is stored in Google Cloud Firestore. On the application UI, a user can see the points of interest they spend the most time at. When the day is over, we delete all the data from Firestore and score the locations they have visited by frequency and duration."
+  const htext3 = "We bring Insite to a close with a couple extra features, our backend server, and a short privacy survey for our users."
+  const text4 = "We initiate sample push notifications with the number of Insite users in the area as an example. All of our location data is stored in Google Cloud Firestore. On the application UI, a user can see the points of interest they spend the most time at. When the day is over, we delete all the data from Firestore and score the locations they have visited by frequency and duration."
   const text5 = "We also included a short privacy survey to go along with this project. To summarize that very quickly, we found that 61% of people believed that this whole application was a privacy problem (which is a lot). We then gave them a new survey question saying that we don't allow 3rd parties to get access to any data directly, we disable tracking services whenever the user chose to, and we delete all location data. After this, only 10% of survey participants believed this app is a privacy concern for them."
 
   return (
@@ -32,6 +33,7 @@ export const Insite = () => {
       <HeaderView text={htext2}/>
       <TextView text={text3} />
       <ImageView imgsrc={testflight} />
+      <HeaderView text={htext3}/>
       <TextView text={text4} />
       <ImageView imgsrc={insite} />
       <TextView text={text5} />
