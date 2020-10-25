@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { Home } from './Components/Home/Home'
 import { Projects } from './Components/Projects/Projects'
 import { About } from './Components/About/About'
-import Tutoring from './Components/Tutoring/Tutoring'
 import { NoMatch } from './Components/NoMatch'
 
 import { Insite } from './Components/ProjectPages/Insite'
@@ -30,7 +29,6 @@ function App() {
               <Route exact path="/stepstore" component={StepStore}></Route>
               <Route exact path="/peerboost" component={PeerBoost}></Route>
 
-              <Route exact path="/tutoring" component={Tutoring}></Route>
             <Route component={NoMatch}></Route>
           </Switch>
         </Router>

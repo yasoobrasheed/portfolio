@@ -42,9 +42,6 @@ export class NavBar extends Component {
               <Nav.Link className="hvr-grow" id={(navType === 'home' || navType === 'about') ? 'navitem' : 'navitemblack'} href="/projects"> Projects </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="hvr-grow" id={(navType === 'home' || navType === 'about') ? 'navitem' : 'navitemblack'} href="/tutoring"> Tutoring </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
               <Nav.Link className="hvr-grow" id={(navType === 'home' || navType === 'about') ? 'navitem' : 'navitemblack'} target="_blank" href="https://bit.ly/37RdXuX"> Poetry </Nav.Link>
             </Nav.Item>
           </Nav>
