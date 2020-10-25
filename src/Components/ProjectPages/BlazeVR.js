@@ -8,7 +8,7 @@ import { HeaderView } from './Views/HeaderView';
 import vrsetup from './assets/vrsetup.png'
 
 export const BlazeVR = () => {
-  const htext1 = "Ah yes, my first foray into Arduino. Here, I use a peltier element and an ultrasonic sensor to create a simple Co-op VR game."
+  const htext1 = "Here, I use a peltier element and an ultrasonic sensor to create a simple Co-op VR game."
   const text1 = "Player 1, you are in virtual reality. With the plastic rod in hand, you must extinguish fires. But be careful! Player 2 is trying to make you fail by placing a sheet of paper in front of your sensor. Try to throw them off by moving in random directions. Winner to 10."
   const text2 = "Player 2, you are in real life. With the sheet of paper in hand, you must block the first player's sensor. Try not to be thrown off by Player 1. Move fast! Winner to 10."
   const htext2 = "Here's a side view of our whole setup."

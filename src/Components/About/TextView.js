@@ -5,6 +5,7 @@ export class TextView extends React.Component {
   constructor(props) {
     super(props)
     this.text = props.text
+    this.vidLink = props.vidLink
   }
   render() {
     return (

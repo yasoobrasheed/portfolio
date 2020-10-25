@@ -1,0 +1,36 @@
+#aboutjumbo {
+    background: url("../../assets/hero9.JPG") no-repeat center center;
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+}
+
+/*
+
+   background-size: cover;
+   padding-top: 25%;
+   padding-bottom: 21%;
+   animation: fadeInAnimation ease 3s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+@media screen and (max-width: 767px) {
+    .jumbotron{
+    	background: url("../../assets/hero8.jpg");
+      background-size: cover;
+      padding-top: 25%;
+      padding-bottom: 65%;
+    }
+}
+   */

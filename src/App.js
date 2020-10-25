@@ -1,9 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+
 import { Home } from './Components/Home/Home'
 import { Projects } from './Components/Projects/Projects'
-import { Tutoring } from './Components/Tutoring/Tutoring'
-import { RealEstate } from './Components/RealEstate/RealEstate'
+import { About } from './Components/About/About'
+import Tutoring from './Components/Tutoring/Tutoring'
 import { NoMatch } from './Components/NoMatch'
 
 import { Insite } from './Components/ProjectPages/Insite'
@@ -19,6 +20,7 @@ function App() {
         <Router>
           <Switch>
               <Route exact path="/" component={Home}></Route>
+              <Route exact path="/about" component={About}></Route>
               <Route exact path="/projects" component={Projects}></Route>
 
               <Route exact path="/insite" component={Insite}></Route>
@@ -29,7 +31,6 @@ function App() {
               <Route exact path="/peerboost" component={PeerBoost}></Route>
 
               <Route exact path="/tutoring" component={Tutoring}></Route>
-              <Route exact path="/realestate" component={RealEstate}></Route>
             <Route component={NoMatch}></Route>
           </Switch>
         </Router>

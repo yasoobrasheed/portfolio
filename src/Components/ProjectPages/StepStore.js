@@ -14,7 +14,6 @@ export const StepStore = () => {
       <HeaderView text={text}/>
       <TextView text={"Coming Soon! Check out the video below in the meantime."} />
       <VideoView vidLink="https://www.youtube.com/embed/f9bufZT8olY"/>
-
     </div>
   )
 }

@@ -31,49 +31,59 @@ export class NavBar extends Component {
           </div>
         </Navbar.Brand>
 
-        {navType === "home" &&
-          <>
-          <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+        <>
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Item>
+              <Nav.Link className="hvr-grow" id={(navType === 'home' || navType === 'about') ? 'navitem' : 'navitemblack'} href="/about"> About </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link className="hvr-grow" id={(navType === 'home' || navType === 'about') ? 'navitem' : 'navitemblack'} href="/projects"> Projects </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link className="hvr-grow" id={(navType === 'home' || navType === 'about') ? 'navitem' : 'navitemblack'} href="/tutoring"> Tutoring </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link className="hvr-grow" id={(navType === 'home' || navType === 'about') ? 'navitem' : 'navitemblack'} target="_blank" href="https://bit.ly/37RdXuX"> Poetry </Nav.Link>
+            </Nav.Item>
+          </Nav>
+          <Nav className="m-auto">
+            {navType === 'home' &&
               <Nav.Item>
-                <Nav.Link className="hvr-grow" id="navitem" href="/projects"> Projects </Nav.Link>
+                <Nav.Link className="hvr-grow" id={navType === 'home' ? 'navitem' : 'navitemblack'}> SITE STILL IN PROGRESS </Nav.Link>
               </Nav.Item>
-              <Nav.Item>
-                <Nav.Link className="hvr-grow" id="navitem" href="/tutoring"> Tutoring </Nav.Link>
-              </Nav.Item>
-            </Nav>
-            <Nav className="m-auto">
-              <Nav.Item>
-                <Nav.Link className="hvr-grow" id="navitem"> SITE STILL IN PROGRESS </Nav.Link>
-              </Nav.Item>
-            </Nav>
+            }
+          </Nav>
+          
+          
             <Nav className="ml-auto">
               <div id="media-links">
                 <a href="https://github.com/yasoobrasheed" target="_blank" rel="noopener noreferrer">
-                  <img className="logo" alt="gh" src={github}/>
+                  <img className={navType === 'home' ? 'logo' : 'logoblack'} alt="gh" src={github}/>
                 </a>
                 <img id="block" alt="blank" src={trans} width="7.5" height="40"/>
                 <a href="https://www.linkedin.com/in/yasoobrasheed/" target="_blank" rel="noopener noreferrer">
-                  <img className="logo" alt="li" src={linkedin}/>
+                  <img className={navType === 'home' ? 'logo' : 'logoblack'}  alt="li" src={linkedin}/>
                 </a>
                 <img id="block" alt="blank" src={trans} width="7.5" height="40"/>
                 <a href="https://www.instagram.com/yasoobr/" target="_blank" rel="noopener noreferrer">
-                  <img className="logo" alt="insta" src={instagram}/>
+                  <img className={navType === 'home' ? 'logo' : 'logoblack'}  alt="insta" src={instagram}/>
                 </a>
                 <img id="block" alt="blank" src={trans} width="7.5" height="40"/>
                 <a href="https://www.facebook.com/yasoob.rasheed" target="_blank" rel="noopener noreferrer">
-                  <img className="logo" alt ="fb" src={facebook}/>
+                  <img className={navType === 'home' ? 'logo' : 'logoblack'}  alt ="fb" src={facebook}/>
                 </a>
                 <img id="block" alt="blank" src={trans} width="7.5" height="40"/>
                 <a href="https://soundcloud.com/yasooob" target="_blank" rel="noopener noreferrer">
-                  <img id="link" className="logo" alt="dc" src={soundcloud}/>
+                  <img id="link" className={navType === 'home' ? 'logo' : 'logoblack'}  alt="dc" src={soundcloud}/>
                 </a>
               </div>
             </Nav>
-          </Navbar.Collapse>
-          </>
-        }
+
+        </Navbar.Collapse>
+        </>
+        
       </Navbar>
     )
   }

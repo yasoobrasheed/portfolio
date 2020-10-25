@@ -6,6 +6,15 @@
   font-family: 'EB Garamond', serif;
 }
 
+#navitemblack {
+  color: black;
+  font-family: 'EB Garamond', serif;
+}
+
+#navitemblack:hover {
+  color: #d93734;
+}
+
 #navitem {
   color: white;
   font-family: 'EB Garamond', serif;
@@ -27,6 +36,15 @@
 }
 
 .logo:hover {
+  filter: invert(29%) sepia(18%) saturate(5640%) hue-rotate(337deg) brightness(109%) contrast(93%);
+}
+
+.logoblack {
+  width: 20px;
+  height: 20px;
+}
+
+.logoblack:hover {
   filter: invert(29%) sepia(18%) saturate(5640%) hue-rotate(337deg) brightness(109%) contrast(93%);
 }
 
