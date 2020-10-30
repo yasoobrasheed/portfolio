@@ -42,7 +42,7 @@ export class NavBar extends Component {
               <Nav.Link className="hvr-grow" id={(navType === 'home' || navType === 'about') ? 'navitem' : 'navitemblack'} href="/projects"> Projects </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="hvr-grow" id={(navType === 'home' || navType === 'about') ? 'navitem' : 'navitemblack'} target="_blank" href="https://bit.ly/37RdXuX"> Poetry </Nav.Link>
+              <Nav.Link className="hvr-grow" id={(navType === 'home' || navType === 'about') ? 'navitem' : 'navitemblack'} href="/poetry"> Poetry </Nav.Link>
             </Nav.Item>
           </Nav>
           <Nav className="m-auto">
@@ -53,30 +53,29 @@ export class NavBar extends Component {
             }
           </Nav>
           
-          
-            <Nav className="ml-auto">
-              <div id="media-links">
-                <a href="https://github.com/yasoobrasheed" target="_blank" rel="noopener noreferrer">
-                  <img className={navType === 'home' ? 'logo' : 'logoblack'} alt="gh" src={github}/>
-                </a>
-                <img id="block" alt="blank" src={trans} width="7.5" height="40"/>
-                <a href="https://www.linkedin.com/in/yasoobrasheed/" target="_blank" rel="noopener noreferrer">
-                  <img className={navType === 'home' ? 'logo' : 'logoblack'}  alt="li" src={linkedin}/>
-                </a>
-                <img id="block" alt="blank" src={trans} width="7.5" height="40"/>
-                <a href="https://www.instagram.com/yasoobr/" target="_blank" rel="noopener noreferrer">
-                  <img className={navType === 'home' ? 'logo' : 'logoblack'}  alt="insta" src={instagram}/>
-                </a>
-                <img id="block" alt="blank" src={trans} width="7.5" height="40"/>
-                <a href="https://www.facebook.com/yasoob.rasheed" target="_blank" rel="noopener noreferrer">
-                  <img className={navType === 'home' ? 'logo' : 'logoblack'}  alt ="fb" src={facebook}/>
-                </a>
-                <img id="block" alt="blank" src={trans} width="7.5" height="40"/>
-                <a href="https://soundcloud.com/yasooob" target="_blank" rel="noopener noreferrer">
-                  <img id="link" className={navType === 'home' ? 'logo' : 'logoblack'}  alt="dc" src={soundcloud}/>
-                </a>
-              </div>
-            </Nav>
+          <Nav className="ml-auto">
+            <div id="media-links">
+              <a href="https://github.com/yasoobrasheed" target="_blank" rel="noopener noreferrer">
+                <img className={navType === 'home' ? 'logo' : 'logoblack'} alt="gh" src={github}/>
+              </a>
+              <img id="block" alt="blank" src={trans} width="7.5" height="40"/>
+              <a href="https://www.linkedin.com/in/yasoobrasheed/" target="_blank" rel="noopener noreferrer">
+                <img className={navType === 'home' ? 'logo' : 'logoblack'}  alt="li" src={linkedin}/>
+              </a>
+              <img id="block" alt="blank" src={trans} width="7.5" height="40"/>
+              <a href="https://www.instagram.com/yasoobr/" target="_blank" rel="noopener noreferrer">
+                <img className={navType === 'home' ? 'logo' : 'logoblack'}  alt="insta" src={instagram}/>
+              </a>
+              <img id="block" alt="blank" src={trans} width="7.5" height="40"/>
+              <a href="https://www.facebook.com/yasoob.rasheed" target="_blank" rel="noopener noreferrer">
+                <img className={navType === 'home' ? 'logo' : 'logoblack'}  alt ="fb" src={facebook}/>
+              </a>
+              <img id="block" alt="blank" src={trans} width="7.5" height="40"/>
+              <a href="https://soundcloud.com/yasooob" target="_blank" rel="noopener noreferrer">
+                <img id="link" className={navType === 'home' ? 'logo' : 'logoblack'}  alt="dc" src={soundcloud}/>
+              </a>
+            </div>
+          </Nav>
 
         </Navbar.Collapse>
         </>
