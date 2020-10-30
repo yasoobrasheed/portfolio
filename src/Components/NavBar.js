@@ -42,7 +42,7 @@ export class NavBar extends Component {
               <Nav.Link className="hvr-grow" id={(navType === 'home' || navType === 'about') ? 'navitem' : 'navitemblack'} href="/projects"> Projects </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="hvr-grow" id={(navType === 'home' || navType === 'about') ? 'navitem' : 'navitemblack'} href="/poetry"> Poetry </Nav.Link>
+              <Nav.Link className="hvr-grow" id={(navType === 'home' || navType === 'about') ? 'navitem' : 'navitemblack'} href="https://drive.google.com/file/d/1Wj1vl8sqwa-gBC82DKjt21KgGzvO1fAz/view"> Poetry </Nav.Link>
             </Nav.Item>
           </Nav>
           <Nav className="m-auto">
