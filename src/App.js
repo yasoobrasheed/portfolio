@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import { Home } from './Components/Home/Home'
 import { Projects } from './Components/Projects/Projects'
-import { Poetry } from './Components/Poetry/Poetry'
 import { About } from './Components/About/About'
 import { NoMatch } from './Components/NoMatch'
 
