@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import { Home } from './Components/Home/Home'
 import { Projects } from './Components/Projects/Projects'
+import { Poetry } from './Components/Poetry/Poetry'
 import { About } from './Components/About/About'
 import { NoMatch } from './Components/NoMatch'
 
@@ -21,6 +22,7 @@ function App() {
               <Route exact path="/" component={Home}></Route>
               <Route exact path="/about" component={About}></Route>
               <Route exact path="/projects" component={Projects}></Route>
+              <Route exact path="/poetry" component={Poetry}></Route>
 
               <Route exact path="/insite" component={Insite}></Route>
               <Route exact path="/talkietalkie" component={TalkieTalkie}></Route>
