@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavBar } from '../NavBar'
 import { SideBar } from '../SideBar'
-//import { VideoView } from './Views/VideoView';
 import { TextView } from './Views/TextView';
 import { HeaderView } from './Views/HeaderView';
 

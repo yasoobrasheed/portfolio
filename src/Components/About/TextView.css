@@ -1,5 +1,7 @@
 #textcont {
   font-family: "EB Garamond", serif;
   font-size: 18px;
-  width: 60vh;
+  width: 45vw;
+  padding-right: 10vw;
+  margin-left: auto;
 }

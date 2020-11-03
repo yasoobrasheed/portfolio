@@ -28,7 +28,6 @@ export const TalkieTalkie = () => {
       <ImageView imgsrc={puredata}/>
       <TextView text={text3} />
       <TextView text={""} />
-
     </div>
   )
 }
