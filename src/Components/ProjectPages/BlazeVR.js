@@ -18,6 +18,7 @@ export const BlazeVR = () => {
       <NavBar navType="project" variant="light"/>
       <SideBar />
       <HeaderView text={htext1}/>
+      <TextView text={"A little convoluted to explain, but pretty fun in real life I tell you."}></TextView>
       <TextView text={text1}/>
       <TextView text={text2}/>
       <VideoView vidLink="https://www.youtube.com/embed/_O1eylldazc"/>

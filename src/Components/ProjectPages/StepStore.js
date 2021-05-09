@@ -12,7 +12,7 @@ export const StepStore = () => {
       <NavBar navType="project" variant="light"/>
       <SideBar />
       <HeaderView text={text}/>
-      <TextView text={"Coming Soon! Check out the video below in the meantime."} />
+      <TextView text={"A theoretical presentation on the efficacy of body mounted energy generators."} />
       <VideoView vidLink="https://www.youtube.com/embed/f9bufZT8olY"/>
     </div>
   )

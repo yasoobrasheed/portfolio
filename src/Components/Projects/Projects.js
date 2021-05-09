@@ -17,7 +17,7 @@ export const Projects = () => {
   const text2 = "An iOS App for real-time, location-targeted advertisements, built with Swift & Python Geofencing."
   const text3 = "A hackathon-winnning IoT application that utilizes ML & Time Series to track water-usage."
   const text4 = "A method for generating sustainable energy using a piezoelectric sensor embedded in shoes."
-  const text5 = "A University of Chicago startup that connects large companies with micro-influencers."
+  const text5 = "A University of Chicago venture project that proposes connecting large companies with micro-influencers."
   const text6 = "A multiplayer VR game that uses an ultrasonic sensor to extinguish virtual fires."
   //const text7 = "A voice recognition system built with Google Voice and Node.js, for ordering flowers."
 
